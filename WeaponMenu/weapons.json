@@ -1,0 +1,579 @@
+{
+    "WEAPON_GLOCK": {
+        "label": "Glock 17",
+        "category": "Pistols",
+        "attachments": {
+            "Glock Slides": [
+                {"label": "Slide 1", "value": "COMPONENT_SLIDE_01"},
+                {"label": "Slide 2", "value": "COMPONENT_SLIDE_02"},
+                {"label": "Slide 3", "value": "COMPONENT_SLIDE_03"},
+                {"label": "Slide 4", "value": "COMPONENT_SLIDE_04"},
+                {"label": "Slide 5", "value": "COMPONENT_SLIDE_05"},
+                {"label": "Slide 6", "value": "COMPONENT_SLIDE_06"},
+                {"label": "Slide 7", "value": "COMPONENT_SLIDE_07"},
+                {"label": "Slide 8", "value": "COMPONENT_SLIDE_08"},
+                {"label": "Slide 9", "value": "COMPONENT_SLIDE_09"}
+            ],
+            "Glock Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_SUPP_03"},
+                {"label": "Suppressor 4", "value": "COMPONENT_SUPP_04"},
+                {"label": "Suppressor 5", "value": "COMPONENT_SUPP_05"},
+                {"label": "Suppressor 6", "value": "COMPONENT_SUPP_06"},
+                {"label": "Suppressor 7", "value": "COMPONENT_SUPP_07"}
+            ],
+            "Glock Magazines": [
+                {"label": "Default Magazine  (17 Rounds)", "value": "COMPONENT_CLIP_01"},
+                {"label": "Extended magazine (22 Rounds)", "value": "COMPONENT_CLIP_02"},
+                {"label": "Extended magazine (30 Rounds)", "value": "COMPONENT_CLIP_03"},
+                {"label": "Drum magazine (50 Rounds)", "value": "COMPONENT_CLIP_04"}
+            ],
+            "Glock Flashlights": [
+                {"label": "Flashlight 1", "value": "COMPONENT_GLOCK_FLSH_01"},
+                {"label": "Flashlight 2", "value": "COMPONENT_GLOCK_FLSH_02"},
+                {"label": "Flashlight 3", "value": "COMPONENT_GLOCK_FLSH_03"},
+                {"label": "Flashlight 4", "value": "COMPONENT_GLOCK_FLSH_04"}
+            ]
+        }
+    },
+    "WEAPON_GLOCK19X": {
+        "label": "Glock 19x Tan",
+        "category": "Pistols",
+        "attachments": {
+            "Tan Suppressors": [
+                {"label": "Suppressor", "value": "COMPONENT_SUPP"}
+            ],
+            "Tan Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_CLIP_02"}
+            ],
+            "Tan Flashlights": [
+                {"label": "Flashlight", "value": "COMPONENT_GLOCK19X_FLSH_01"}
+            ]
+        }
+    },
+    "WEAPON_GLOCK19X2": {
+        "label": "Glock 19x Blk",
+        "category": "Pistols",   
+        "attachments": {
+            "Blk Suppressors": [
+                {"label": "Suppressor", "value": "COMPONENT_SUPP"}
+            ],
+            "Blk Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_CLIP_03"},
+                {"label": "Magazine 2", "value": "COMPONENT_CLIP_04"}
+            ],
+            "Blk Flashlights": [
+                {"label": "Flashlight", "value": "COMPONENT_GLOCK19X_FLSH_02"}
+            ]
+        }
+    },
+    "WEAPON_SR25": {
+        "label": "SR-25",
+        "category": "Marksman Rifles",
+        "attachments": {
+            "SR-25 Scopes": [
+                {"label": "Scope 1", "value": "COMPONENT_SR25_SCOPE_01"},
+                {"label": "Scope 2", "value": "COMPONENT_SR25_SCOPE_06"},
+                {"label": "Scope 3", "value": "COMPONENT_SR25_SCOPE_07"},
+                {"label": "Scope 4", "value": "COMPONENT_SR25_SCOPE_08"},
+                {"label": "Scope 5", "value": "COMPONENT_SR25_SCOPE_09"},
+                {"label": "Scope 6", "value": "COMPONENT_SR25_SCOPE_10"},
+                {"label": "Scope 7", "value": "COMPONENT_SR25_SCOPE_11"},
+                {"label": "Scope 8", "value": "COMPONENT_SR25_SCOPE_12"},
+                {"label": "Scope 9", "value": "COMPONENT_SR25_SCOPE_02"},
+                {"label": "Scope 10", "value": "COMPONENT_SR25_SCOPE_03"},
+                {"label": "Scope 11", "value": "COMPONENT_SR25_SCOPE_04"},
+                {"label": "Scope 12", "value": "COMPONENT_SR25_SCOPE_05"}				
+            ],
+            "SR-25 Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_SR25_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_SR25_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_SR25_SUPP_03"}
+            ],
+            "SR-25 Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_SR25_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_SR25_CLIP_02"},
+                {"label": "Magazine 3", "value": "COMPONENT_SR25_CLIP_03"}
+
+            ],
+            "SR-25 Flashlights": [
+                {"label": "Flashlight 1", "value": "COMPONENT_SR25_FLSH_01"},
+                {"label": "Flashlight 2", "value": "COMPONENT_SR25_FLSH_02"},
+                {"label": "Flashlight 3", "value": "COMPONENT_SR25_FLSH_03"},
+                {"label": "Flashlight 4", "value": "COMPONENT_SR25_FLSH_04"}
+            ]
+        }
+    },
+    "WEAPON_MDR": {
+        "label": "DT MDR 5.56x45",
+        "category": "Assault Rifles",   
+        "attachments": {
+            "MDR Scopes": [
+                {"label": "Scope 1", "value": "COMPONENT_MDR_SCOPE_01"},
+                {"label": "Scope 2", "value": "COMPONENT_MDR_SCOPE_02"},
+                {"label": "Scope 3", "value": "COMPONENT_MDR_SCOPE_03"},
+                {"label": "Scope 4", "value": "COMPONENT_MDR_SCOPE_04"}
+            ],
+            "MDR Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_MDR_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_MDR_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_MDR_SUPP_03"},
+                {"label": "Suppressor 4", "value": "COMPONENT_MDR_SUPP_04"},
+                {"label": "Suppressor 5", "value": "COMPONENT_MDR_SUPP_05"}
+            ],
+            "MDR Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_MDR_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_MDR_CLIP_02"},
+                {"label": "Magazine 3", "value": "COMPONENT_MDR_CLIP_03"},
+                {"label": "Magazine 4", "value": "COMPONENT_MDR_CLIP_04"},
+                {"label": "Magazine 5", "value": "COMPONENT_MDR_CLIP_05"},
+                {"label": "Magazine 6", "value": "COMPONENT_MDR_CLIP_06"},
+                {"label": "Magazine 7", "value": "COMPONENT_MDR_CLIP_07"},
+                {"label": "Magazine 8", "value": "COMPONENT_MDR_CLIP_08"},
+                {"label": "Magazine 9", "value": "COMPONENT_MDR_CLIP_09"}
+            ]
+        }
+    },
+    "WEAPON_MDR2": {
+        "label": "DT MDR 7.62x51",
+        "category": "Assault Rifles",   
+        "attachments": {
+            "MDR2 Scopes": [
+                {"label": "Scope 1", "value": "COMPONENT_MDR2_SCOPE_01"},
+                {"label": "Scope 2", "value": "COMPONENT_MDR2_SCOPE_02"},
+                {"label": "Scope 3", "value": "COMPONENT_MDR2_SCOPE_03"},
+                {"label": "Scope 4", "value": "COMPONENT_MDR2_SCOPE_04"},
+                {"label": "Scope 5", "value": "COMPONENT_MDR2_SCOPE_05"},
+                {"label": "Scope 6", "value": "COMPONENT_MDR2_SCOPE_06"}
+            ],
+            "MDR2 Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_MDR2_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_MDR2_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_MDR2_SUPP_03"}
+            ],
+            "MDR2 Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_MDR2_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_MDR2_CLIP_02"},
+                {"label": "Magazine 3", "value": "COMPONENT_MDR2_CLIP_03"},
+                {"label": "Magazine 4", "value": "COMPONENT_MDR2_CLIP_04"},
+                {"label": "Magazine 5", "value": "COMPONENT_MDR2_CLIP_05"},
+                {"label": "Magazine 6", "value": "COMPONENT_MDR2_CLIP_06"},
+                {"label": "Magazine 7", "value": "COMPONENT_MDR2_CLIP_07"}
+            ],
+            "MDR2 Flashlights &Lasers": [
+                {"label": "Flashlight 1", "value": "COMPONENT_MDR2_FLSH_01"},
+                {"label": "Flashlight 2", "value": "COMPONENT_MDR2_FLSH_02"},
+                {"label": "Flashlight 3", "value": "COMPONENT_MDR2_FLSH_03"},
+                {"label": "Flashlight 4", "value": "COMPONENT_MDR2_FLSH_04"},
+                {"label": "Flashlight 5", "value": "COMPONENT_MDR2_FLSH_05"},
+                {"label": "Flashlight 6", "value": "COMPONENT_MDR2_FLSH_06"}
+            ]
+        }
+    },
+    "WEAPON_AKM": {
+        "label": "AKM",
+        "category": "Assault Rifles",   
+        "attachments": {
+            "AKM Stocks": [
+                {"label": "Stock 1", "value": "COMPONENT_AKM_STOCK_01"},
+                {"label": "Stock 2", "value": "COMPONENT_AKM_STOCK_02"},
+                {"label": "Stock 3", "value": "COMPONENT_AKM_STOCK_03"},
+                {"label": "Stock 4", "value": "COMPONENT_AKM_STOCK_04"},
+                {"label": "Stock 5", "value": "COMPONENT_AKM_STOCK_05"},
+                {"label": "Stock 6", "value": "COMPONENT_AKM_STOCK_06"},
+                {"label": "Stock 7", "value": "COMPONENT_AKM_STOCK_07"},
+                {"label": "Stock 8", "value": "COMPONENT_AKM_STOCK_08"},
+                {"label": "Stock 9", "value": "COMPONENT_AKM_STOCK_09"}
+            ],
+            "AKM Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_AKM_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_AKM_CLIP_02"},
+                {"label": "Magazine 3", "value": "COMPONENT_AKM_CLIP_03"},
+                {"label": "Magazine 4", "value": "COMPONENT_AKM_CLIP_04"},
+                {"label": "Magazine 5", "value": "COMPONENT_AKM_CLIP_05"},
+                {"label": "Magazine 6", "value": "COMPONENT_AKM_CLIP_06"},
+                {"label": "Magazine 7", "value": "COMPONENT_AKM_CLIP_07"},
+                {"label": "Magazine 8", "value": "COMPONENT_AKM_CLIP_08"},
+                {"label": "Magazine 9", "value": "COMPONENT_AKM_CLIP_09"},
+                {"label": "Magazine 10", "value": "COMPONENT_AKM_CLIP_10"},
+                {"label": "Magazine 11", "value": "COMPONENT_AKM_CLIP_11"}
+            ],
+            "AKM Dustcovers": [
+                {"label": "Dustcover 1", "value": "COMPONENT_AKM_DUSTCOVER_01"},
+                {"label": "Dustcover 2", "value": "COMPONENT_AKM_DUSTCOVER_02"},
+                {"label": "Dustcover 3", "value": "COMPONENT_AKM_DUSTCOVER_03"},
+                {"label": "Dustcover 4", "value": "COMPONENT_AKM_DUSTCOVER_04"}
+            ],
+            "AKM Scopes": [
+                {"label": "Scope 1", "value": "COMPONENT_AKM_SCOPE_01"},
+                {"label": "Scope 2", "value": "COMPONENT_AKM_SCOPE_02"},
+                {"label": "Scope 3", "value": "COMPONENT_AKM_SCOPE_03"},
+                {"label": "Scope 4", "value": "COMPONENT_AKM_SCOPE_04"},
+                {"label": "Scope 5", "value": "COMPONENT_AKM_SCOPE_05"},
+                {"label": "Scope 6", "value": "COMPONENT_AKM_SCOPE_06"},
+                {"label": "Scope 7", "value": "COMPONENT_AKM_SCOPE_07"},
+                {"label": "Scope 8", "value": "COMPONENT_AKM_SCOPE_08"},
+                {"label": "Scope 9", "value": "COMPONENT_AKM_SCOPE_09"}
+            ],
+            "AKM PistolGrips": [
+                {"label": "Grip 1", "value": "COMPONENT_AKM_PISTOLGRIP_01"},
+                {"label": "Grip 2", "value": "COMPONENT_AKM_PISTOLGRIP_02"},
+                {"label": "Grip 3", "value": "COMPONENT_AKM_PISTOLGRIP_03"},
+                {"label": "Grip 4", "value": "COMPONENT_AKM_PISTOLGRIP_04"},
+                {"label": "Grip 5", "value": "COMPONENT_AKM_PISTOLGRIP_05"}
+            ],
+            "AKM Hand Guards": [
+                {"label": "Hand Guard 1", "value": "COMPONENT_AKM_HANDGUARD_01"},
+                {"label": "Hand Guard 2", "value": "COMPONENT_AKM_HANDGUARD_02"},
+                {"label": "Hand Guard 3", "value": "COMPONENT_AKM_HANDGUARD_03"},
+                {"label": "Hand Guard 4", "value": "COMPONENT_AKM_HANDGUARD_04"},
+                {"label": "Hand Guard 5", "value": "COMPONENT_AKM_HANDGUARD_05"},
+                {"label": "Hand Guard 6", "value": "COMPONENT_AKM_HANDGUARD_06"},
+                {"label": "Hand Guard 7", "value": "COMPONENT_AKM_HANDGUARD_07"},
+                {"label": "Hand Guard 8", "value": "COMPONENT_AKM_HANDGUARD_08"},
+                {"label": "Hand Guard 9", "value": "COMPONENT_AKM_HANDGUARD_09"},
+                {"label": "Hand Guard 10", "value": "COMPONENT_AKM_HANDGUARD_10"}
+            ],
+            "AKM Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_AKM_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_AKM_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_AKM_SUPP_03"}
+            ]
+        }
+    },
+    "WEAPON_SIG": {
+        "label": "Sig Sauer M18",
+        "category": "Pistols",   
+        "attachments": {
+            "M18 Scopes": [
+                {"label": "Scope 1", "value": "COMPONENT_SIG_SCOPE_01"},
+                {"label": "Scope 2", "value": "COMPONENT_SIG_SCOPE_02"},
+                {"label": "Scope 3", "value": "COMPONENT_SIG_SCOPE_03"}
+            ],
+            "M18 Suppressors": [
+                {"label": "Suppressor 1", "value": "COMPONENT_SIG_SUPP_01"},
+                {"label": "Suppressor 2", "value": "COMPONENT_SIG_SUPP_02"},
+                {"label": "Suppressor 3", "value": "COMPONENT_SIG_SUPP_03"}
+            ],
+            "M18 Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_SIG_CLIP_01"},
+                {"label": "Extended Magazine", "value": "COMPONENT_SIG_CLIP_02"}
+            ],
+            "M18 Flashlights": [
+                {"label": "Flashlight 1", "value": "COMPONENT_SIG_FLSH_01"},
+                {"label": "Flashlight 2", "value": "COMPONENT_SIG_FLSH_02"},
+                {"label": "Flashlight 3", "value": "COMPONENT_SIG_FLSH_03"}
+            ]
+        }
+    },
+    "WEAPON_TOZ": {
+        "label": "TOZ 107",
+        "category": "Shotguns",   
+        "attachments": {
+            "Toz Body": [
+                {"label": "Body 1", "value": "COMPONENT_TOZ_STOCK_01"},
+                {"label": "Body 2", "value": "COMPONENT_TOZ_STOCK_02"},
+                {"label": "Body 3", "value": "COMPONENT_TOZ_STOCK_03"},
+                {"label": "Body 4", "value": "COMPONENT_TOZ_STOCK_04"},				
+                {"label": "Body 5", "value": "COMPONENT_TOZ_STOCK_05"}
+            ],
+            "Toz Magazines": [
+                {"label": "Magazine 1", "value": "COMPONENT_TOZ_CLIP_01"},
+                {"label": "Magazine 2", "value": "COMPONENT_TOZ_CLIP_02"},
+                {"label": "Magazine 3", "value": "COMPONENT_TOZ_CLIP_03"},				
+                {"label": "Magazine 4", "value": "COMPONENT_TOZ_CLIP_04"}
+            ]
+        }
+    },	
+    "WEAPON_M4A1FM": {
+        "label": "Military Themed M4A1",
+        "category": "Assault Rifles",   
+        "attachments": {
+            "M4A1 Barrels & Suppressors": [
+                {"label": "Short Barrel", "value": "COMPONENT_M4A1FM_BARREL_01"},
+                {"label": "Long Barrel", "value": "COMPONENT_M4A1FM_BARREL_02"},
+                {"label": "Suppressed Short Barrel", "value": "COMPONENT_M4A1FM_BARREL_03"},
+                {"label": "Suppressed Long Barrel", "value": "COMPONENT_M4A1FM_BARREL_04"}				
+
+            ],
+            "M4A1 Magazines": [
+                {"label": "Stanag 30rnd", "value": "COMPONENT_M4A1FM_CLIP_01"},
+                {"label": "P-Mag 30rnd", "value": "COMPONENT_M4A1FM_CLIP_02"},
+                {"label": "Stanag 60rnd", "value": "COMPONENT_M4A1FM_CLIP_03"},				
+                {"label": "P-Mag 60rnd", "value": "COMPONENT_M4A1FM_CLIP_04"}
+            ],
+            "M4A1 Scopes": [
+                {"label": "Carry Handle", "value": "COMPONENT_M4A1FM_SCOPE_01"},
+                {"label": "Carry Handle + Acog", "value": "COMPONENT_M4A1FM_SCOPE_02"},
+                {"label": "XPS3 Holographic", "value": "COMPONENT_M4A1FM_SCOPE_03"},				
+                {"label": "553 Holographic", "value": "COMPONENT_M4A1FM_SCOPE_04"}
+            ],			
+            "M4A1 Lasers": [
+                {"label": "Insight LA5 BLK", "value": "COMPONENT_M4A1FM_FLSH_01"},
+                {"label": "Insight LA5", "value": "COMPONENT_M4A1FM_FLSH_02"},
+                {"label": "Morovision Anpeq15 BLK", "value": "COMPONENT_M4A1FM_FLSH_03"},				
+                {"label": "Morovision Anpeq15", "value": "COMPONENT_M4A1FM_FLSH_04"},
+                {"label": "Zenit Perst 3", "value": "COMPONENT_M4A1FM_FLSH_05"},
+                {"label": "Surefire X400 Flashlight", "value": "COMPONENT_M4A1FM_FLSH_06"}							
+            ]					
+        }
+    },		
+    "WEAPON_P90FM": {
+        "label": "FN P90",
+        "category": "Sub Machine Guns",        
+        "attachments": {
+            "P90 Barrels & Suppressors": [
+                {"label": "Short Barrel", "value": "COMPONENT_P90_BARREL_01"},
+                {"label": "Suppressed Short Barrel", "value": "COMPONENT_P90_BARREL_02"},	
+                {"label": "Long Barrel", "value": "COMPONENT_P90_BARREL_03"}			
+
+            ],
+            "P90 Butt Pads": [
+                {"label": "Standard ButtPad", "value": "COMPONENT_P90_BUTTPAD_01"},
+                {"label": "Extended ButtPad", "value": "COMPONENT_P90_BUTTPAD_02"}
+            ],
+            "P90 Scopes": [
+                {"label": "FN Ring Sight", "value": "COMPONENT_P90_SCOPE_01"},
+                {"label": "Picatinny Iron Sights", "value": "COMPONENT_P90_SCOPE_02"},
+                {"label": "Fold up Iron Sights", "value": "COMPONENT_P90_SCOPE_03"},				
+                {"label": "Micro T1", "value": "COMPONENT_P90_SCOPE_04"},
+                {"label": "Walther MRS", "value": "COMPONENT_P90_SCOPE_05"},
+                {"label": "XPS3 Holographic", "value": "COMPONENT_P90_SCOPE_06"},
+                {"label": "553 Holographic", "value": "COMPONENT_P90_SCOPE_07"},				
+                {"label": "Canted Trijicon RMR", "value": "COMPONENT_P90_SCOPE_08"}			
+            ],			
+            "P90 Lasers": [
+                {"label": "Surefire X400 Flashlight", "value": "COMPONENT_P90_FLSH_01"},	
+                {"label": "Surefire 2IRS Flashlight", "value": "COMPONENT_P90_FLSH_02"},					
+                {"label": "Insight LA5 BLK", "value": "COMPONENT_P90_FLSH_03"},
+                {"label": "Insight LA5", "value": "COMPONENT_P90_FLSH_04"},
+                {"label": "Morovision Anpeq15 BLK", "value": "COMPONENT_P90_FLSH_05"},				
+                {"label": "Morovision Anpeq15", "value": "COMPONENT_P90_FLSH_06"},
+                {"label": "Zenit Perst 3", "value": "COMPONENT_P90_FLSH_07"}							
+            ]	
+        }
+    },			
+    "WEAPON_SCAR17FM": {
+        "label": "Scar 17",
+        "category": "Assault Rifles",
+        "attachments": {
+            "Scar Magazines": [
+                {"label": "20 Rnd Tan", "value": "COMPONENT_SCAR_CLIP_01"},			
+                {"label": "30 Rnd Tan", "value": "COMPONENT_SCAR_CLIP_02"},			
+                {"label": "20 Rnd Blk", "value": "COMPONENT_SCAR_CLIP_03"},			
+                {"label": "30 Rnd Blk", "value": "COMPONENT_SCAR_CLIP_04"},			
+                {"label": "20 Rnd Tracer", "value": "COMPONENT_SCAR_CLIP_05"},			
+                {"label": "30 Rnd Tracer", "value": "COMPONENT_SCAR_CLIP_06"}	
+            ],
+            "Scar Scopes": [
+                {"label": "Unfolded Iron Sights", "value": "COMPONENT_SCAR_SCOPE_01"},			
+                {"label": "Folded Iron Sights", "value": "COMPONENT_SCAR_SCOPE_02"},			
+                {"label": "Walther MRS", "value": "COMPONENT_SCAR_SCOPE_03"},			
+                {"label": "Holosun HS401G5", "value": "COMPONENT_SCAR_SCOPE_04"},			
+                {"label": "Trijicon SRS", "value": "COMPONENT_SCAR_SCOPE_05"},			
+                {"label": "Vortex Razor AMG-UH-1", "value": "COMPONENT_SCAR_SCOPE_06"},			
+                {"label": "Aimpoint T-1 Micro", "value": "COMPONENT_SCAR_SCOPE_07"},			
+                {"label": "Eotech EXPS3", "value": "COMPONENT_SCAR_SCOPE_08"},			
+                {"label": "Eotech EXPS3 Unfolded Magnifier", "value": "COMPONENT_SCAR_SCOPE_09"},			
+                {"label": "Eotech EXPS3 Magnifier", "value": "COMPONENT_SCAR_SCOPE_10"},			
+                {"label": "Eotech 553", "value": "COMPONENT_SCAR_SCOPE_11"},			
+                {"label": "Eotech 553 Center Mounted", "value": "COMPONENT_SCAR_SCOPE_12"},			
+                {"label": "Eotech 553 Unfolded Magnifier", "value": "COMPONENT_SCAR_SCOPE_13"},			
+                {"label": "Eotech 553 Magnifier", "value": "COMPONENT_SCAR_SCOPE_14"},			
+                {"label": "Monstrum Compact Prism", "value": "COMPONENT_SCAR_SCOPE_15"},			
+                {"label": "Primary Arms Compact Prism", "value": "COMPONENT_SCAR_SCOPE_16"},			
+                {"label": "Elcan SpecterDR", "value": "COMPONENT_SCAR_SCOPE_17"},			
+                {"label": "Trijicon TA01NSN Acog", "value": "COMPONENT_SCAR_SCOPE_18"},			
+                {"label": "Hensoldt  FF 3-12x56", "value": "COMPONENT_SCAR_SCOPE_19"},			
+                {"label": "Leupold Mark 4 LR", "value": "COMPONENT_SCAR_SCOPE_20"}						
+            ],		
+            "Scar Flashlights & Lasers": [
+                {"label": "Insight LA5 Blk Top", "value": "COMPONENT_SCAR_FLSH_01"},
+                {"label": "Insight LA5 Tan Top", "value": "COMPONENT_SCAR_FLSH_02"},
+                {"label": "Morovision Anpeq15 Blk Top", "value": "COMPONENT_SCAR_FLSH_03"},
+                {"label": "Surfire X400 Right", "value": "COMPONENT_SCAR_FLSH_04"},
+                {"label": "Insight LA5 Blk Right", "value": "COMPONENT_SCAR_FLSH_05"},
+                {"label": "Insight LA5 Tan Right", "value": "COMPONENT_SCAR_FLSH_06"},
+                {"label": "Surfire X400 Left", "value": "COMPONENT_SCAR_FLSH_07"},
+                {"label": "Insight LA5 Blk Combo", "value": "COMPONENT_SCAR_FLSH_08"},
+                {"label": "Morovision Anpeq15 Tan Combo", "value": "COMPONENT_SCAR_FLSH_09"},
+                {"label": "Insight LA5 Tan Combo", "value": "COMPONENT_SCAR_FLSH_10"}             
+            ],      
+            "Scar Barrels & Suppressors": [
+                {"label": "16-in Barrel", "value": "COMPONENT_SCAR_BARREL_01"},       
+                {"label": "10-in Barrel", "value": "COMPONENT_SCAR_BARREL_02"},     
+                {"label": "4-in Barrel", "value": "COMPONENT_SCAR_BARREL_03"},     
+                {"label": "16-in AAC SDN 6", "value": "COMPONENT_SCAR_BARREL_04"},     
+                {"label": "10-in AAC SDN 6", "value": "COMPONENT_SCAR_BARREL_05"},     
+                {"label": "4-in AAC SDN 6", "value": "COMPONENT_SCAR_BARREL_06"},     
+                {"label": "16-in Socom Monster", "value": "COMPONENT_SCAR_BARREL_07"},     
+                {"label": "10-in Socom Monster", "value": "COMPONENT_SCAR_BARREL_08"},     
+                {"label": "4-in Socom Monster", "value": "COMPONENT_SCAR_BARREL_09"}                          
+            ],       
+            "Scar Body": [
+                {"label": "Tan Body", "value": "COMPONENT_SCAR_BODY_01"},               
+                {"label": "Blk Body", "value": "COMPONENT_SCAR_BODY_02"}                                       
+            ]                   			
+        }
+    },
+    "WEAPON_AR15": {
+        "label": "5.56 AR15",
+        "category": "Assault Rifles",
+        "attachments": {
+            "AR15 Magazines": [
+                {"label": "20 Rnd Magazine", "value": "COMPONENT_AR15_CLIP_01"},			
+                {"label": "30 Rnd Magazine", "value": "COMPONENT_AR15_CLIP_02"},			
+                {"label": "30 Rnd Stanag Mag", "value": "COMPONENT_AR15_CLIP_03"},			
+                {"label": "30 Rnd PMAG", "value": "COMPONENT_AR15_CLIP_04"},			
+                {"label": "30 Rnd Battlemag", "value": "COMPONENT_AR15_CLIP_05"},	
+                {"label": "60 Rnd Surfire Mag", "value": "COMPONENT_AR15_CLIP_06"},			
+                {"label": "30 Rnd Polymer Mag", "value": "COMPONENT_AR15_CLIP_07"},			
+                {"label": "30 Rnd Hk Gen 2", "value": "COMPONENT_AR15_CLIP_08"},			
+                {"label": "45 Rnd PMAG", "value": "COMPONENT_AR15_CLIP_09"},			
+                {"label": "60 Rnd PMAG Drum", "value": "COMPONENT_AR15_CLIP_10"}
+            ],
+            "AR15 Scopes": [
+                {"label": "Unfolded Iron Sights", "value": "COMPONENT_BEOWULF_SCOPE_01"},			
+                {"label": "Folded Iron Sights", "value": "COMPONENT_BEOWULF_SCOPE_02"},			
+                {"label": "Eotech EXPS3", "value": "COMPONENT_BEOWULF_SCOPE_03"},			
+                {"label": "Eotech EXPS3 Unfolded Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_04"},			
+                {"label": "TEotech EXPS3 Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_05"},			
+                {"label": "Eotech 553", "value": "COMPONENT_BEOWULF_SCOPE_06"},			
+                {"label": "Eotech 553 Unfolded Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_07"},			
+                {"label": "Eotech 553 Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_08"},			
+                {"label": "Walther MRS", "value": "COMPONENT_BEOWULF_SCOPE_09"},			
+                {"label": "Aimpoint T-1 Micro", "value": "COMPONENT_BEOWULF_SCOPE_10"},			
+                {"label": "Holosun HS401G5", "value": "COMPONENT_BEOWULF_SCOPE_11"},				
+                {"label": "Trijicon SRS", "value": "COMPONENT_BEOWULF_SCOPE_12"},			
+                {"label": "Vortex Razor AMG-UH-1", "value": "COMPONENT_BEOWULF_SCOPE_13"},			
+                {"label": "Monstrum Compact Prism", "value": "COMPONENT_BEOWULF_SCOPE_14"},			
+                {"label": "Primary Arms Compact Prism", "value": "COMPONENT_BEOWULF_SCOPE_15"},			
+                {"label": "Elcan SpecterDR", "value": "COMPONENT_BEOWULF_SCOPE_16"},			
+                {"label": "Trijicon TA01NSN Acog", "value": "COMPONENT_BEOWULF_SCOPE_17"},			
+                {"label": "Trijicon TA11 Acog", "value": "COMPONENT_BEOWULF_SCOPE_18"},			
+                {"label": "Hensoldt  FF 3-12x56", "value": "COMPONENT_BEOWULF_SCOPE_19"},
+                {"label": "Leupold Mark 4 LR", "value": "COMPONENT_BEOWULF_SCOPE_20"}					
+            ],		
+            "AR15 Grips": [
+                {"label": "Fortis Shift", "value": "COMPONENT_BEOWULF_GRIP_01"},
+                {"label": "Magpul AFG", "value": "COMPONENT_BEOWULF_GRIP_02"},
+                {"label": "RTP Pillau", "value": "COMPONENT_BEOWULF_GRIP_03"},
+                {"label": "Tango Down Stubby", "value": "COMPONENT_BEOWULF_GRIP_04"},
+                {"label": "Zenit RK 2", "value": "COMPONENT_BEOWULF_GRIP_05"},
+                {"label": "Zenit RK 4", "value": "COMPONENT_BEOWULF_GRIP_06"},
+                {"label": "Zenit RK 5", "value": "COMPONENT_BEOWULF_GRIP_07"}       
+            ],                  
+            "AR15 Flashlights & Lasers": [
+                {"label": "Insight LA5 Blk", "value": "COMPONENT_BEOWULF_FLSH_01"},
+                {"label": "Insight LA5 Tan", "value": "COMPONENT_BEOWULF_FLSH_02"},
+                {"label": "Morovision Anpeq15 Blk", "value": "COMPONENT_BEOWULF_FLSH_03"},
+                {"label": "Holosun LS321", "value": "COMPONENT_BEOWULF_FLSH_04"},
+                {"label": "Zenit Perst 3", "value": "COMPONENT_BEOWULF_FLSH_05"}          
+            ],      
+            "AR15 Suppressors": [
+                {"label": "Sicin Surefire", "value": "COMPONENT_AR15_SUPP_01"},       
+                {"label": "Kac NT 4", "value": "COMPONENT_AR15_SUPP_02"}                          
+            ],       
+            "AR15 Body": [
+                {"label": "Tan Body", "value": "COMPONENT_BEOWULF_BODY_01"},
+                {"label": "Happy Blue Body", "value": "COMPONENT_BEOWULF_BODY_02"},
+                {"label": "Brown Body", "value": "COMPONENT_BEOWULF_BODY_03"},
+                {"label": "Green Body", "value": "COMPONENT_BEOWULF_BODY_04"},
+                {"label": "Pink Body", "value": "COMPONENT_BEOWULF_BODY_05"},
+                {"label": "Black Body", "value": "COMPONENT_BEOWULF_BODY_06"},
+                {"label": "Purple Body", "value": "COMPONENT_BEOWULF_BODY_07"},
+                {"label": "Red Body", "value": "COMPONENT_BEOWULF_BODY_08"},
+                {"label": "Olive Green Body", "value": "COMPONENT_BEOWULF_BODY_09"},
+                {"label": "Camo Body", "value": "COMPONENT_BEOWULF_BODY_10"}                
+            ]                   			
+        }
+    },	
+    "WEAPON_50BEOWULF": {
+        "label": ".50 Beowulf AR15",
+        "category": "Assault Rifles",
+        "attachments": {
+            "Beowulf Magazines": [
+                {"label": "15 Rnd Magazine", "value": "COMPONENT_BEOWULF_CLIP_01"},			
+                {"label": "20 Rnd Magazine", "value": "COMPONENT_BEOWULF_CLIP_02"},			
+                {"label": "20 Rnd Stanag Mag", "value": "COMPONENT_BEOWULF_CLIP_03"},			
+                {"label": "20 Rnd PMAG", "value": "COMPONENT_BEOWULF_CLIP_04"},			
+                {"label": "20 Rnd Battlemag", "value": "COMPONENT_BEOWULF_CLIP_05"},	
+                {"label": "40 Rnd Surfire Mag", "value": "COMPONENT_BEOWULF_CLIP_06"},			
+                {"label": "20 Rnd Polymer Mag", "value": "COMPONENT_BEOWULF_CLIP_07"},			
+                {"label": "20 Rnd Hk Gen 2", "value": "COMPONENT_BEOWULF_CLIP_08"},			
+                {"label": "25 Rnd PMAG", "value": "COMPONENT_BEOWULF_CLIP_09"},			
+                {"label": "40 Rnd PMAG Drum", "value": "COMPONENT_BEOWULF_CLIP_10"}
+            ],
+            "Beowulf Scopes": [
+                {"label": "Unfolded Iron Sights", "value": "COMPONENT_BEOWULF_SCOPE_01"},			
+                {"label": "Folded Iron Sights", "value": "COMPONENT_BEOWULF_SCOPE_02"},			
+                {"label": "Eotech EXPS3", "value": "COMPONENT_BEOWULF_SCOPE_03"},			
+                {"label": "Eotech EXPS3 Unfolded Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_04"},			
+                {"label": "TEotech EXPS3 Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_05"},			
+                {"label": "Eotech 553", "value": "COMPONENT_BEOWULF_SCOPE_06"},			
+                {"label": "Eotech 553 Unfolded Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_07"},			
+                {"label": "Eotech 553 Magnifier", "value": "COMPONENT_BEOWULF_SCOPE_08"},			
+                {"label": "Walther MRS", "value": "COMPONENT_BEOWULF_SCOPE_09"},			
+                {"label": "Aimpoint T-1 Micro", "value": "COMPONENT_BEOWULF_SCOPE_10"},			
+                {"label": "Holosun HS401G5", "value": "COMPONENT_BEOWULF_SCOPE_11"},				
+                {"label": "Trijicon SRS", "value": "COMPONENT_BEOWULF_SCOPE_12"},			
+                {"label": "Vortex Razor AMG-UH-1", "value": "COMPONENT_BEOWULF_SCOPE_13"},			
+                {"label": "Monstrum Compact Prism", "value": "COMPONENT_BEOWULF_SCOPE_14"},			
+                {"label": "Primary Arms Compact Prism", "value": "COMPONENT_BEOWULF_SCOPE_15"},			
+                {"label": "Elcan SpecterDR", "value": "COMPONENT_BEOWULF_SCOPE_16"},			
+                {"label": "Trijicon TA01NSN Acog", "value": "COMPONENT_BEOWULF_SCOPE_17"},			
+                {"label": "Trijicon TA11 Acog", "value": "COMPONENT_BEOWULF_SCOPE_18"},			
+                {"label": "Hensoldt  FF 3-12x56", "value": "COMPONENT_BEOWULF_SCOPE_19"},
+                {"label": "Leupold Mark 4 LR", "value": "COMPONENT_BEOWULF_SCOPE_20"}					
+            ],		
+            "Beowulf Grips": [
+                {"label": "Fortis Shift", "value": "COMPONENT_BEOWULF_GRIP_01"},
+                {"label": "Magpul AFG", "value": "COMPONENT_BEOWULF_GRIP_02"},
+                {"label": "RTP Pillau", "value": "COMPONENT_BEOWULF_GRIP_03"},
+                {"label": "Tango Down Stubby", "value": "COMPONENT_BEOWULF_GRIP_04"},
+                {"label": "Zenit RK 2", "value": "COMPONENT_BEOWULF_GRIP_05"},
+                {"label": "Zenit RK 4", "value": "COMPONENT_BEOWULF_GRIP_06"},
+                {"label": "Zenit RK 5", "value": "COMPONENT_BEOWULF_GRIP_07"}       
+            ],                  
+            "Beowulf Flashlights & Lasers": [
+                {"label": "Insight LA5 Blk", "value": "COMPONENT_BEOWULF_FLSH_01"},
+                {"label": "Insight LA5 Tan", "value": "COMPONENT_BEOWULF_FLSH_02"},
+                {"label": "Morovision Anpeq15 Blk", "value": "COMPONENT_BEOWULF_FLSH_03"},
+                {"label": "HAolosun LS321", "value": "COMPONENT_BEOWULF_FLSH_04"},
+                {"label": "Zenit Perst 3", "value": "COMPONENT_BEOWULF_FLSH_05"}          
+            ],      
+            "Beowulf Suppressors": [
+                {"label": ".50 Suppressor 1", "value": "COMPONENT_BEOWULF_SUPP_02"},       
+                {"label": ".50 Suppressor 2", "value": "COMPONENT_BEOWULF_SUPP_03"},                 
+                {"label": ".50 Suppressor 3", "value": "COMPONENT_BEOWULF_SUPP_04"}         
+            ],       
+            "Beowulf Body": [
+                {"label": "Tan Body", "value": "COMPONENT_BEOWULF_BODY_01"},
+                {"label": "Happy Blue Body", "value": "COMPONENT_BEOWULF_BODY_02"},
+                {"label": "Brown Body", "value": "COMPONENT_BEOWULF_BODY_03"},
+                {"label": "Green Body", "value": "COMPONENT_BEOWULF_BODY_04"},
+                {"label": "Pink Body", "value": "COMPONENT_BEOWULF_BODY_05"},
+                {"label": "Black Body", "value": "COMPONENT_BEOWULF_BODY_06"},
+                {"label": "Purple Body", "value": "COMPONENT_BEOWULF_BODY_07"},
+                {"label": "Red Body", "value": "COMPONENT_BEOWULF_BODY_08"},
+                {"label": "Olive Green Body", "value": "COMPONENT_BEOWULF_BODY_09"},
+                {"label": "Camo Body", "value": "COMPONENT_BEOWULF_BODY_10"}             
+            ]                   			
+        }
+    },
+    "WEAPON_DOUBLEBARRELFM": {
+        "label": "Double Barrel",
+        "category": "Shotguns",
+        "attachments": {
+            "Barrel Lengths": [
+                {"label": "510mm Standard Barrel", "value": "COMPONENT_DOUBLEBARREL_BARREL_01"},
+                {"label": "475mm Barrel", "value": "COMPONENT_DOUBLEBARREL_BARREL_02"},
+                {"label": "450mm Barrel", "value": "COMPONENT_DOUBLEBARREL_BARREL_03"},
+                {"label": "725mm Barrel", "value": "COMPONENT_DOUBLEBARREL_BARREL_04"},
+                {"label": "750mm Barrel", "value": "COMPONENT_DOUBLEBARREL_BARREL_05"}
+            ]			
+        }
+    }
+}
